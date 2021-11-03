@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     #return render_template("index.html")
-    return "This is an BSOK python app."
+    return "This is an ajs webhook test of  python app."
  
 
 @app.route("/healthz")
